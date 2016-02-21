@@ -5,7 +5,7 @@
 
 1. Introdução  
     1.1 [Bem vindo](chapters/01-introducao/01a-welcome.md)  
-    1.2 Instalação  
+    1.2 [Instalação](chapters/01-introducao/01b-instalation.md)  
     1.3 Tutorial  
     1.4 Conceitos de Migração  
     1.5 Conceitos > Core Concepts
