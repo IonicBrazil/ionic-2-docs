@@ -1,4 +1,4 @@
-# Ionic 2 Tutorial
+# 1.3 Ionic 2 Tutorial
 
 Agora que você tem [instalado Ionic e suas dependências](chapters/01-introducao/01b-instalation.md), você pode construir seu primeiro aplicativo! Esta seção irá guiá-lo através do processo de iniciar uma nova aplicação, adicionando páginas, navegação entre as páginas, e muito mais. Vamos começar!
 

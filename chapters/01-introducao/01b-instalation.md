@@ -1,4 +1,4 @@
-# Instalando Ionic
+# 1.2 Instalando Ionic
  
 Como Ionic 1, aplicações Ionic 2 podem ser rapidamente criadas a partir da Ionic CLI ou ferramenta GUI ou construídas e testadas diretamente no navegador.
  

@@ -7,7 +7,7 @@
     1.1 [Bem vindo](chapters/01-introducao/01a-welcome.md)  
     1.2 [Instalação](chapters/01-introducao/01b-instalation.md)  
     1.3 [Tutorial](chapters/01-introducao/01c-tutorial.md)    
-    1.4 Conceitos de Migração  
+    1.4 [Conceitos de Migração](chapters/01-introducao/01d-migration.md)
     1.5 Conceitos > Core Concepts
 
 2. Componentes  
