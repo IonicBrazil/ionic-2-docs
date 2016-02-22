@@ -23,8 +23,7 @@ $ cd MyIonic2Project/
 $ ionic serve
 ```
 
-![tutorial-screen](chapters/01-introducao/tutorial-screen.png)
-Format: ![Alt Text](url)
+[tutorial-screen](#/tutorial-screen.png)
 
 Você deverá ver a mensagem de boas vindas mostrada acima, se tudo foi instalado com sucesso.
 
