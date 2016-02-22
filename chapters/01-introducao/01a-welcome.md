@@ -1,4 +1,4 @@
-Bem vindo ao Ionic 
+# Bem vindo ao Ionic 
 
 Nós projetamos Ionic para ajudar desenvolvedores web a construir grandes aplicativos móveis para as lojas de aplicativos mais natural possível. Isso significa que nós focamos em tornar as linguagens padrões HTML, CSS e JavaScript que você usaria para construir um site a ajudá-lo a transformá-los magicamente em móvel. Estas tecnologias têm servido os desenvolvedores bem nos últimos vinte anos, e pensamos que o torna uma bonita e grande aposta para os próximos vinte.
 
