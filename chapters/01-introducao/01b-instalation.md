@@ -40,7 +40,7 @@ Para construir para iOS, precisamos adicionar o módulo de plataforma iOS para C
 $ ionic platform add ios
 ```
     
-Em seguida, você precisa instalar o [Xcode](ionic2-docs/glossario.md). Xcode permite que você construa compilar para um dispositivo de destino executando o iOS.
+Em seguida, você precisa instalar o [Xcode](ionic2-docs/glossario.md). Xcode permite que você construa e compile para um dispositivo de destino executando o iOS.
 
 De lá, você deve ser capaz de executar o emulador iOS usando o seguinte comando:
 ```
