@@ -23,6 +23,6 @@ Um CLI, ou interface de linha de comando, é a interface baseada em texto para i
 
 ## XCode
 
-[XCode](https://developer.apple.com/xcode/) é um IDE que permite desenvolver aplicativos iOS. XCode inclui ferramentas que ajudam com a construção, teste e depuração de seu aplicativo. Embora muitos desenvolvedores iônicos não usá-lo como seu editor primário, ele é muitas vezes utilizado para construir e assinar a versão de produção de um aplicativo.
+[XCode](https://developer.apple.com/xcode/) é um IDE que permite desenvolver aplicativos iOS. XCode inclui ferramentas que ajudam com a construção, teste e depuração de seu aplicativo. Embora muitos desenvolvedores ionic não usá-lo como seu editor primário, ele é muitas vezes utilizado para construir e assinar a versão de produção de um aplicativo.
 
 *termos técnicos traduzidos, ou não*
