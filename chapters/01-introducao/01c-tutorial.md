@@ -9,7 +9,7 @@ Vanos criar um aplicativo! Use o comando **start** para inicializar um novo apli
 $ ionic start MyIonic2Project tutorial --v2
 ```
     
-Isso vai puxar Ionic 2 para baixo, instalar o [módulos npm](ionic2-docs/glossario.md) para a aplicação, e obter o [Cordova](ionic2-docs/glossario.md) configurado e pronto para utilizar.
+Isso vai baixar o Ionic 2, instalar o [módulos npm](ionic2-docs/glossario.md) para a aplicação, e obter o [Cordova](ionic2-docs/glossario.md) configurado e pronto para utilizar.
 
 Quer usar o TypeScript em vez disso? Passe o sinalizador **--ts** e obtenha uma configuração de projeto de TypeScript em seu lugar.
 
