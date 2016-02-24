@@ -23,7 +23,7 @@ $ cd MyIonic2Project/
 $ ionic serve
 ```
 
-[tutorial-screen](/ionic2-docs/blob/master/chapters/01-introducao/tutorial-screen.png)
+[tutorial-screen](tutorial-screen.png)
 
 Você deverá ver a mensagem de boas vindas mostrada acima, se tudo foi instalado com sucesso.
 
