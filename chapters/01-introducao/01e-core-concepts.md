@@ -18,11 +18,11 @@ Este conteúdo do site e documentação (encontrado no repo [ionic-site](https:/
 
 ## O que é Ionic CLI?
 
-O [CLI](ionic2-docs/glossario.md), ou interface de linha de comando, é uma ferramenta que fornece uma série de comandos úteis para desenvolvedores Ionic. Além de instalar e atualizar Ionic, o CLI construído vem com um  servidor de desenvolvimento, construção e ferramentas de depuração, e muito mais. Se você estiver usando a Plataforma Ionic, o CLI pode ser usado para exportar o código e até mesmo interagir com a sua conta por meio de programação.
+O [CLI](ionic2-docs/glossario.md), ou interface de linha de comando, é uma ferramenta que fornece uma série de comandos úteis para desenvolvedores Ionic. Além de instalar e atualizar Ionic, o CLI vem com um  servidor de desenvolvimento, construção e ferramentas de depuração, e muito mais. Se você estiver usando a Plataforma Ionic, o CLI pode ser usado para exportar o código e até mesmo interagir com a sua conta por meio de programação.
 
 ## O que são componentes?
 
-Componentes em Ionic são elementos de interface do usuário reutilizáveis que servem como blocos de construção para seu aplicativo móvel. Componentes são feitos de HTML, CSS, e às vezes JavaScript. Cada componente Ionic se adapta à plataforma na qual seu aplicativo está sendo executado. Chamamos isso de **Platform Continuity** e vai mais a fundo sobre como ele funciona em Theming.
+Componentes em Ionic são elementos de interface do usuário reutilizáveis que servem como blocos de construção para seu aplicativo móvel. Componentes são feitos de HTML, CSS, e as vezes JavaScript. Cada componente Ionic se adapta a plataforma na qual seu aplicativo está sendo executado. Chamamos isso de **Platform Continuity** e vai mais a fundo sobre como ele funciona em Theming.
 
 ## O que é theming?
 
