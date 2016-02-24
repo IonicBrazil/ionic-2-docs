@@ -4,7 +4,7 @@ Agora que você tem [instalado Ionic e suas dependências](chapters/01-introduca
 
 ## Iniciano um Novo aplicativo Ionic 2
 
-Vanos criar um aplicativo! Use o comando **start** para inicializar um novo aplicativo Ionic. Especifique que você quer que ele seja um aplicativo Ionic 2 passando a opção **--v2**.  Nós também especificamos que o modelo do **tutorial** poderia se usado.
+Vanos criar um aplicativo! Use o comando **start** para inicializar um novo aplicativo Ionic. Especifique que você quer que ele seja um aplicativo Ionic 2 passando a opção **--v2**.  Nós também especificamos que o modelo do **tutorial** poderia ser usado.
 ```
 $ ionic start MyIonic2Project tutorial --v2
 ```
@@ -13,7 +13,7 @@ Isso vai baixar o Ionic 2, instalar o [módulos npm](ionic2-docs/glossario.md) p
 
 Quer usar o TypeScript em vez disso? Passe o sinalizador **--ts** e obtenha uma configuração de projeto de TypeScript em seu lugar.
 
-Você pode ter notado que nós passamos no **tutorial** para o comando **start iônica**. Isto diz para o Ionic inicializar seu aplicativo usando o [modelo tutorial](https://github.com/driftyco/ionic2-starter-tutorial). Se você não especificar um modelo executando **ionic start MyIonic2Project --v2**, o [tab starter](https://github.com/driftyco/ionic2-starter-tabs) será utilizado.
+Você pode ter notado que nós passamos **tutorial** para o comando **start iônica**. Isto diz para o Ionic inicializar seu aplicativo usando o [modelo tutorial](https://github.com/driftyco/ionic2-starter-tutorial). Se você não especificar um modelo executando **ionic start MyIonic2Project --v2**, o [tab starter](https://github.com/driftyco/ionic2-starter-tabs) será utilizado.
 
 ## Visualizando o aplicativo em um navegador
 
@@ -23,7 +23,7 @@ $ cd MyIonic2Project/
 $ ionic serve
 ```
 
-[tutorial-screen](#/tutorial-screen.png)
+[tutorial-screen](/ionic2-docs/chapters/01-introducao/tutorial-screen.png)
 
 Você deverá ver a mensagem de boas vindas mostrada acima, se tudo foi instalado com sucesso.
 
