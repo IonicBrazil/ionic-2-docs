@@ -2,7 +2,7 @@
 
 Ionic 2 é construído em cima de Angular 2, que é uma reescrita completa do framework original. Todas as partes do Angular que você conhece ainda estão lá, mas há nova sintaxe e as mudanças estruturais sobre os quais os desenvolvedores precisam estar cientes. Para uma visão geral das mudanças no Angular 2, dê uma olhada em [Aprenda Angular 2](http://learnangular2.com/).
 
-Em Ionic 2, devem se sentir muito familiar as coisas. Todos os conceitos de Ionic V1 ainda estão no V2, embora eles podem ser ligeiramente diferentes. Você ainda tem visões e controladores como você faz na V1, mas em V2, elas foram fundidas em uma instância.
+Em Ionic 2, devem se sentir muito familiar com as coisas. Todos os conceitos de Ionic V1 ainda estão no V2, embora eles podem ser ligeiramente diferentes. Você ainda tem visões e controladores como você faz na V1, mas em V2, elas foram fundidas em uma instância.
 
 Veja este exemplo V1.
 
@@ -36,7 +36,7 @@ export class MainCmp {
 }
 ```
 
-Outras mudanças, como mudanças de navegação, são muito diferentes, mas por boas razões, nós prometemos. Agora, você pode tratar componentes como pontos de vista arbitrários e navegar por elas de qualquer jeito que você quiser. Isto torna a navegação muito mais flexível e permite pilhas de navegação muito mais nativa de estilo.
+Outras mudanças, como mudanças de navegação, são muito diferentes, mas por boas razões, como nós prometemos. Agora, você pode tratar componentes como pontos de vista arbitrários e navegar por elas de qualquer jeito que você quiser. Isto torna a navegação muito mais flexível e permite pilhas de navegação muito mais nativa de estilo.
 
 # Migrando do Angular 1
 
@@ -90,7 +90,7 @@ _app.js_
 
 ## TypeScript
 
-TypeScript é um super conjunto de JavaScript que fornece Classes ES6 e tipo anotações em seu código. Com a adoção de TypeScript agora, você pode escrever seu código como Classes ES6 que serão fáceis para se deslocar para Ionic 2. A melhor parte é que qualquer JavaScript válido também é TypeScript válido, assim você pode converter o seu pedaço de código por parte. Se você levar o seu controlador de antes, você pode facilmente convertê-lo em uma classe TypeScript como esta.
+TypeScript é um super conjunto de JavaScript que fornece Classes ES6 e tipo de anotações em seu código. Agora, com a adoção de TypeScript você pode escrever seu código como Classes ES6 que serão fáceis para se deslocar para Ionic 2. A melhor parte é que qualquer JavaScript válido também é TypeScript válido, assim você pode converter o seu pedaço de código por parte. Se você aproveitar o seu controlador anterior, você pode facilmente convertê-lo em uma classe TypeScript como esta.
 
 _app.js_
 
@@ -116,7 +116,7 @@ export class MainCtrl{
 
 ## Estrutura do projeto
 
-Com o Angular 1, era uma prática manter todo o seu JavaScript juntos e separados de seus modelos. Desde Ionic 2 e Angular 2 será para uma configuração baseada em componente, você pode organizar o seu projeto para ajudar mentalmente a aplicar esse conceito. Assim, um projeto cujo diretório parecerá com isso ...
+Com o Angular 1, era uma prática manter todo o seu JavaScript juntos e separados de seus modelos. Desde Ionic 2 e Angular 2 estará se movendo para uma configuração baseada em componente, você pode organizar o seu projeto para ajudar mentalmente a aplicar esse conceito. Assim, um projeto cujo diretório parecerá com isso ...
 
 ```
 |-www/
