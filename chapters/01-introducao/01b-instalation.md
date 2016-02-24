@@ -31,7 +31,7 @@ Depois de ter instalado Ionic, você pode construir seu aplicativo para um dispo
 $ sudo npm install -g cordova
 ```
     
-Depois que você tiver instalado Cordova e um dispositivo ou emulador pronto para ir, você pode seguir em frente e começar a construir sua app!
+Depois que você tiver instalado Cordova e um dispositivo ou emulador pronto para começar, você pode seguir em frente e começar a construir sua app!
 
 ## Construindo para iOS
 
@@ -54,7 +54,7 @@ Para construir para o Android, será necessário você adicionar o módulo da pl
 $ ionic platform add android
 ```
 
-Em seguida, será necessário você instalar o [Android SDK](ionic2-docs/glossario.md). O SDK do Android permite que você construa compilar para um dispositivo de destino executando o Android. Embora o Android SDK vem com um emulador de estoque, Genymotion é recomendado, uma vez que é muito mais rápido. Uma vez instalado, inicie uma imagem Android e execute:
+Em seguida, será necessário você instalar o [Android SDK](ionic2-docs/glossario.md). O SDK do Android permite que você construa e compile para um dispositivo de destino executando o Android. Embora o Android SDK venha com um emulador próprio, Genymotion é recomendado, uma vez que é muito mais rápido. Uma vez instalado, inicie uma imagem Android e execute:
 ```
 $ ionic run android
 ```  
