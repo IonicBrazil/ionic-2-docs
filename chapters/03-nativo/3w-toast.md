@@ -5,7 +5,7 @@ Esse plugin permite que abra um Toast(pequena caixa em popup) para **iOs, WP8 e 
 
 [Repositório](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin)
 
-Requer Cordova plugin: `cordova-plugin-x-toast`. Para mais informações, acesse a [documentação do toast]
+Requer Cordova plugin: `cordova-plugin-x-toast`. Para mais informações, acesse a [documentação do toast](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin)
 
 ###Uso
 ```javascript
