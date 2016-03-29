@@ -24,7 +24,7 @@ Toast.show("Eu sou uma mensagem Toast", 5000, "center").subscribe(
 ###Métodos estáticos
 
 
-`show(message, duration, position)`  
+####`show(message, duration, position)`  
 Mostre uma mensagem toast com a duração e a posição.
 
 Parâmetro | Tipo | Detalhes
@@ -34,15 +34,15 @@ duration | `string` | Duração para mostrar a mensagem, pode-se usar `short`, `
 position | `string` | A posição aonde vai ser posicionada a mensagem, usa-se `top`, `center`ou `bottom`.  
 **Retorno:** `Observable`, notifica primeiro um caso de sucesso, logo em seguida  rejeita em caso de erro.
 
-`hide()`  
+####`hide()`  
 Manualmente esconde qualquer mensagem visível.  
 **Retorno:** `Promise` Retorna uma promessa se foi escondido com sucesso.
 
-`showWithOptions(options)`  
+####`showWithOptions(options)`  
 Mostra uma mensagem Toast nativa, porém com opções.
 
 Parâmetro | Tipo | Detalhes
---- | -- | ---
+--- | --- | ---
 Options | `Object`| Opções para mostrar o Toast. **duration:** Duração de exibição do Toast, podendo ser 'short', 'long' ou qualquer número em milesegundos. **position:** Posição em que vai se encontrar a mensagem, alteráveis para: 'top', 'center' ou 'bottom' **addPixelsY:** deslocamento em pixels para mover a mensagem para cima ou para baixo confirme a posição especificada.
 
 **Retorno:** `Observavle`, notifica primeiro um caso de sucesso, logo em seguida  rejeita em caso de erro.
