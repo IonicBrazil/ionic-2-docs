@@ -40,5 +40,5 @@ PushNotification retorna um novo objeto [PushNotification](https://github.com/ph
 Checa se as permissões para notificações push estão de acordo.
 
 ####Retorno  
-Retorna uma **promessa** que devolve um objeto `isEnabled`, um booleano que indica se a parmissão foi concedida.
+Retorna uma **promessa** que devolve um objeto `isEnabled`, um booleano que indica se a permissão foi concedida.
 

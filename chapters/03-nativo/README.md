@@ -22,6 +22,6 @@
 3.21 > pluginWarn  
 3.22 [push](3v-push.md)  
 3.23 > StatusBar  
-3.24 > Toast  
+3.24 [Toast](3w-toast.md)  
 3.25 > TouchID  
 3.26 > wrap  
