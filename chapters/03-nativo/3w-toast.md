@@ -54,27 +54,27 @@ Options | `Object`| Opções para mostrar o Toast. **duration:** Duração de ex
 
 
 #####`showShortTop()`
-Resumido: `show(message, 'short', top)  
+Resumido: `show(message, 'short', top)`  
 **Retorno:** `Observavle`, notifica primeiro um caso de sucesso, logo em seguida rejeita com caso de erro.
 
 #####`showShortCenter()` 
-Resumido: `show(message, 'short', center)  
+Resumido: `show(message, 'short', center)`  
 **Retorno:** `Observavle`, notifica primeiro um caso de sucesso, logo em seguida rejeita com caso de erro.
 
 #####`showShortBottom()`  
-Resumido: `show(message, 'short', bottom)  
+Resumido: `show(message, 'short', bottom)`  
 **Retorno:** `Observavle`, notifica primeiro um caso de sucesso, logo em seguida rejeita com caso de erro.
 
 #####`showLongTop()`
-Resumido: `show(message, 'long', top)  
+Resumido: `show(message, 'long', top)`  
 **Retorno:** `Observavle`, notifica primeiro um caso de sucesso, logo em seguida rejeita com caso de erro.
 
 #####`showLongCenter()` 
-Resumido: `show(message, 'long', center)  
+Resumido: `show(message, 'long', center)`  
 **Retorno:** `Observavle`, notifica primeiro um caso de sucesso, logo em seguida rejeita com caso de erro.
 
 #####`showLongBottom()`  
-Resumido: `show(message, 'long', bottom)  
+Resumido: `show(message, 'long', bottom)`  
 **Retorno:** `Observavle`, notifica primeiro um caso de sucesso, logo em seguida rejeita com caso de erro.
 
 
