@@ -34,9 +34,13 @@ duration | `string` | Duração para mostrar a mensagem, pode-se usar `short`, `
 position | `string` | A posição aonde vai ser posicionada a mensagem, usa-se `top`, `center`ou `bottom`.  
 **Retorno:** `Observable`, notifica primeiro um caso de sucesso, logo em seguida  rejeita em caso de erro.
 
+
+
 #####`hide()`  
 Manualmente esconde qualquer mensagem visível.  
 **Retorno:** `Promise` Retorna uma promessa se foi escondido com sucesso.
+
+
 
 #####`showWithOptions(options)`  
 Mostra uma mensagem Toast nativa, porém com opções.
@@ -47,6 +51,8 @@ Options | `Object`| Opções para mostrar o Toast. **duration:** Duração de ex
 
 **Retorno:** `Observavle`, notifica primeiro um caso de sucesso, logo em seguida rejeita em caso de erro.
 
-###`showShortTop()`
+
+
+####`showShortTop()`
 Abreviada para: `show(message, 'short', center)  
 **Retorno:** `Observavle`, notifica primeiro um caso de sucesso, logo em seguida rejeita com caso de erro.
