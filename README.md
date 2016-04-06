@@ -6,7 +6,7 @@
 ####0. Home
 0.1 [Home](/chapters/00-home)
 
-####1. Introdução 
+####1. Introdução
 1.1 [Bem vindo](chapters/01-introducao/01a-welcome.md)   
 1.2 [Instalação](chapters/01-introducao/01b-instalation.md)   
 1.3 [Tutorial](chapters/01-introducao/01c-tutorial.md)  
@@ -35,7 +35,7 @@
 2.19 Slides  
 2.20 Tabs  
 2.21 Toggle  
-2.22 Toolbar 
+2.22 Toolbar
 
 ####3. Nativo
 3.1 [ActionSheet](chapters/03-nativo/3a-actionSheet.md)  
@@ -85,7 +85,7 @@
 4.2 [Tematizando seu aplicativo](chapters/04-temas/4b-theming-your-ionic-app.md)  
 4.3 [Variáveis SASS](chapters/04-temas/4c-sass-variables.md)  
 4.4 [Estilos das plataformas](chapters/04-temas/4d-platform-vars.md)  
-4.5 [Sobreescrevendo variáveis do Ionic](chapters/04-temas/4e-overriding-ionic-variables.md) 
+4.5 [Sobreescrevendo variáveis do Ionic](chapters/04-temas/4e-overriding-ionic-variables.md)
 
 ####5. CLI  
 5.1 [Introdução](chapters/05-cli/5a-intro.md)   
@@ -97,15 +97,15 @@
 5.7 `run`  
 5.8 `serve`  
 5.9 `start`  
-5.10 `v2` 
+5.10 `v2`
 
-####6. [FAQ](chapters/06-faq/01-faq.md) 
+####6. [FAQ](chapters/06-faq/01-faq.md)
 
-####7. API 
+####7. API
 
 ####8. Recursos > Resources  
 8.1 Developer Tips  
-8.2 Glossário  
+8.2 [Glossário](chapters/08-recursos/08b-ionic-developer-glossary.md)  
 8.3 Ionicons  
 8.4 [Editores e IDEs](chapters/08-recursos/08d-editors-and-ides.md)   
 8.5 [Usando NPM](chapters/08-recursos/08e-using-npm.md)  
