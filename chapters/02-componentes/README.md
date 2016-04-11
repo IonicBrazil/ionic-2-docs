@@ -1,7 +1,7 @@
 2. Componentes  
 2.1 [Overview](2a-orverview.md)  
 2.2 [Action Sheets](2b-action-sheets.md)  
-2.3 [Alerts](2c-alerts.md)  
+2.3 [Alerts](2c-alertas.md)  
 2.4 > Badges  
 2.5 > Buttons  
 2.6 > Cards  
@@ -20,4 +20,4 @@
 2.19 > Slides  
 2.20 > Tabs  
 2.21 > Toggle  
-2.22 > Toolbar   
+2.22 > Toolbar 
