@@ -2,7 +2,7 @@
 2.1 [Overview](2a-orverview.md)  
 2.2 [Action Sheets](2b-action-sheets.md)  
 2.3 [Alerts](2c-alertas.md)  
-2.4 > Badges  
+2.4 [Badges](2c-badges.md)  
 2.5 > Buttons  
 2.6 > Cards  
 2.7 > Checkbox  
