@@ -7,7 +7,7 @@ Badges são pequenos componentes que tipicamente, informam valor numérico para 
 
 	<ion-item>
 	  <ion-icon name="logo-twitter" item-left></ion-icon>
-	  Followers
+	  Seguidores
 	  <ion-badge item-right>260k</ion-badge>
 	</ion-item>
 
