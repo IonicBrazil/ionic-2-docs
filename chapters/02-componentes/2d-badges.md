@@ -1,6 +1,6 @@
-# Badges (crachás)
+# Badges
 
-Badges são pequenos componentes que tipicamente, informam valor numérico para o usuário. Eles normalmente são utilizados dentro de um item.
+Badges são pequenos componentes que tipicamente, informam valores numéricos para o usuário. Eles normalmente são utilizados dentro de um item.
 
 
 ### Uso Básico
