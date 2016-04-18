@@ -23,7 +23,7 @@ Alerts básicos, são geralmente usados ​​para notificar o usuário sobre no
      doAlert() {
        let alert = Alert.create({
          title: 'Amigo Novo!',
-         subTitle: 'Seu amigo, Obi Wan Kenobi, apenas aceitou o seu pedido de amizade!',
+         subTitle: 'Seu amigo, Obi Wan Kenobi, aceitou o seu pedido de amizade!',
       	   buttons: ['Ok']
        });
      this.nav.present(alert);
@@ -37,24 +37,24 @@ Prompts oferecem aos usuários uma maneira de dados ou informações de entrada.
 
 	let prompt = Alert.create({
       title: 'Login',
-      message: "Digite um nome para este novo álbum, que você está tão interessado em adicionar",
+      message: 'Digite um nome para este novo álbum, que você está tão interessado em adicionar',
       inputs: [
         {
-          name: 'title',
-          placeholder: 'Title'
+          name: 'título',
+          placeholder: 'título'
         },
       ],
       buttons: [
         {
-          text: 'Cancel',
+          text: 'Cancelar',
           handler: data => {
-            console.log('Cancel clicked');
+            console.log('Cancelar cliclado');
           }
         },
         {
-          text: 'Save',
+          text: 'Salvar',
           handler: data => {
-            console.log('Saved clicked');
+            console.log('Salvar cliclado');
           }
         }
       ]
@@ -62,24 +62,79 @@ Prompts oferecem aos usuários uma maneira de dados ou informações de entrada.
 
 ### Confirmation Alerts (Confirmação Alertas) 
 
-Confirmação de Alertas são usados ​​quando é necessário que o usuário confirme expressamente uma escolha particular antes de ir adiante no aplicativo. Um exemplo comum do confirmation alert, é verificando se um usuário quer excluir ou remover um contato de sua lista de endereços.
+Confirmação de Alertas são usados ​​quando é necessário que o usuário confirme expressamente uma escolha particular antes de ir adiante no aplicativo. Um exemplo comum é verificar se um usuário quer excluir ou remover um contato de sua lista de endereços.
 
 	 let confirm = Alert.create({
-      title: 'Utilize este sabre de luz?',
-      message: 'Você concorda em usar este sabre de luz para fazer o bem através da galáxia intergaláctica?',
+      title: 'Utilizar este sabre de luz?',
+      message: 'Você concorda em usar este sabre de luz para fazer o bem, através da galáxia intergaláctica?',
       buttons: [
         {
-          text: 'Disagree',
+          text: 'Discordar',
           handler: () => {
-            console.log('Disagree clicked');
+            console.log('Discordar clicado');
           }
         },
         {
-          text: 'Agree',
+          text: 'Concordo',
           handler: () => {
-            console.log('Agree clicked');
+            console.log('Concordo clicado');
           }
         }
       ]
     });
 
+### Radio
+
+Alertas de rádio são simplesmente um outro tipo de alerta de confirmação, mas usam o componente de rádio para oferecer várias opções. Eles oferecem ao usuário um conjunto de opções para escolher, mas estão autorizados a fazer apenas uma seleção final antes de continuar para a frente.
+
+	 doRadio() {
+	    let alert = Alert.create();
+	    alert.setTitle('Cor do sabre de luz');
+
+	    alert.addInput({
+	      type: 'radio',
+	      label: 'Azul',
+	      value: 'blue',
+	      checked: true
+	    });
+	
+	    alert.addButton('Cancelar');
+	    alert.addButton({
+	      text: 'SIM',
+	      handler: data => {
+	        this.testRadioOpen = false;
+	        this.testRadioResult = data;
+	      }
+	    });
+
+###Checkbox 
+
+Alertas de CheckBox são simplesmente um outro tipo de alerta de confirmação, mas use o componente Checkbox para oferecer várias opções. Eles oferecem ao usuário um conjunto de opções para escolher.
+
+	 doCheckbox() {
+	    let alert = Alert.create();
+	    alert.setTitle('Quais planetas você visitou?');
+	
+	    alert.addInput({
+	      type: 'checkbox',
+	      label: 'Alderaan',
+	      value: 'value1',
+	      checked: true
+	    });
+	
+	    alert.addInput({
+	      type: 'checkbox',
+	      label: 'Bespin',
+	      value: 'value2'
+	    });
+	
+	    alert.addButton('Cancelar');
+	    alert.addButton({
+	      text: 'Sim',
+	      handler: data => {
+	        console.log('Checkbox data:', data);
+	        this.testCheckboxOpen = false;
+	        this.testCheckboxResult = data;
+	      }
+	    });
+	  }
