@@ -18,7 +18,7 @@
 2.5 Buttons  
 2.6 Cards  
 2.7 [Checkbox](chapters/02-componentes/2g-checkbox.md)  
-2.8 Grid  
+2.8 [Grid](chapters/02-componentes/2h-grid.md)  
 2.9 Icons  
 2.10 Inputs  
 2.11 Lists  
