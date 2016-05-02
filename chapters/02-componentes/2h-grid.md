@@ -32,6 +32,6 @@ width-80	80%
 width-90	90%
 ***
 
-Use o atributo `offset` na coluna para definir seu percentual de deslocamento da esquerda(por exemplo: offset-25). Para alterar colunas por uma linha alinhada verticalmente, adicione o atributo center ou baseline no `<ion-row>`.
+Use o atributo `offset` na coluna para definir seu percentual de deslocamento da esquerda(por exemplo: offset-25). Para alinhar uma coluna verticalmente, adicione o atributo center ou baseline na tag `<ion-row>`.
 
 Use o atributo wrap em um elemento <ion-row> para permitir que itens nessa linha sejam envolvidos. Aplica-se `flex-wrap: wrap;` para estilizar o elemento `<ion-row>`.
