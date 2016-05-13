@@ -23,7 +23,7 @@
 2.10 Inputs  
 2.11 Lists  
 2.12 Menus  
-2.13 Modals  
+2.13 [Modals](chapters/02-componentes/2m-modals.md)  
 2.14 Navigation  
 2.15 Radio  
 2.16 Searchbar  
