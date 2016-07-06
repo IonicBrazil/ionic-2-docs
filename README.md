@@ -79,8 +79,7 @@
 3.38 StatusBar  
 3.39 Toast  
 3.40 TouchID  
-3.41 Vibration
-
+3.41 Vibration     
 3.42 [BackgroundGeolocation](chapters/03-nativo/3y-backgroundGeolocation.md)  
 
 ####4. Temas  
