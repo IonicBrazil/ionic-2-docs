@@ -41,3 +41,4 @@
 3.39 > Toast  
 3.40 > TouchID  
 3.41 > Vibration
+3.42 > BackgroundGeolocation
