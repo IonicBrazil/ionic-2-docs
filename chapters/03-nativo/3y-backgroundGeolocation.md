@@ -1,15 +1,15 @@
-ActionSheet
+BackgroundGeolocation
 ===========
 
 ```
-$ cordova plugin add cordova-plugin-actionsheet
+$ ionic plugin add cordova-plugin-mauron85-background-geolocation
 ```
 
-Repositório: [https://github.com/EddyVerbruggen/cordova-plugin-actionsheet](https://github.com/EddyVerbruggen/cordova-plugin-actionsheet)
+Repositório: [https://github.com/mauron85/cordova-plugin-background-geolocation](https://github.com/mauron85/cordova-plugin-background-geolocation)
 
-O plugin ActionSheet exibe uma lista de opções que o usuário pode escolher. 
+O plugin nos proporciona a geolocalização em primeiro plano ou em segundo plano(*background*) com economia de bateria ao utilizar "monitoramento de região circular" e "pausa de detecção".
 
-Esse plugin tem como dependência: ```cordova-plugin-actionsheet```. Para mais informações, por favor veja a [documentação do plugin ActionSheet](https://github.com/EddyVerbruggen/cordova-plugin-actionsheet).
+Para mais informações, por favor veja a [documentação do plugin](https://github.com/mauron85/cordova-plugin-background-geolocation).
 
 Platafomas suportadas
 -----
