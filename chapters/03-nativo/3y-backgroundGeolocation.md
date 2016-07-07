@@ -21,17 +21,41 @@ Uso
 ---
 
 ``` javascript
-import {ActionSheet} from 'ionic-native';
+import {BackgroundGeolocation} from 'ionic-native';
 
-let buttonLabels = ['Share via Facebook', 'Share via Twitter'];
-ActionSheet.show({
-  'title': 'What do you want with this image?',
-  'buttonLabels': buttonLabels,
-  'addCancelButtonWithLabel': 'Cancel',
-  'addDestructiveButtonWithLabel' : 'Delete'
-}).then(buttonIndex => {
-  console.log('Button pressed: ' + buttonLabels[buttonIndex - 1]);
-});
+
+
+// Quando o dispositivo estiver pronto :
+platform.ready().then(() => {
+
+    // BackgroundGeolocation é altamente configuravel. Veja as opcões espceificas de configuração da plataforma
+    let config = {
+            desiredAccuracy: 10,
+            stationaryRadius: 20,
+            distanceFilter: 30,
+            debug: true, //  habilite para ouvir sons referentes ao ciclo de vida do background-geolocation.
+            stopOnTerminate: false, // habilite para limpar as configurações de localizaçao em segundo plano quando o app for fechado.
+    };
+
+    BackgroundGeolocation.configure(config)
+       .then((location) => {
+            console.log('[js] BackgroundGeolocation callback:  ' + location.latitude + ',' + location.longitude);
+
+            // IMPORTANTE:  Você precisa executar o metodo "finish" aqui para informar o plugin nativo de que você terminou
+            // e a tarefa em background pode ser concluída  You must do this regardless if your HTTP request is successful or not.
+            // IF YOU DON'T, ios will CRASH YOUR APP for spending too much time in the background.
+            BackgroundGeolocation.finish(); // FOR IOS ONLY
+        })
+       .catch((error) => {
+            console.log('BackgroundGeolocation error');
+        });
+
+    // Turn ON the background-geolocation system.  The user will be tracked whenever they suspend the app.
+    BackgroundGeolocation.start();
+}
+
+// If you wish to turn OFF background-tracking, call the #stop method.
+BackgroundGeolocation.stop();
 ```
 
 Métodos estáticos
