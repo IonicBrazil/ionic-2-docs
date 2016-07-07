@@ -95,7 +95,7 @@ Retorna a stationaryLocation se disponivel. retorna null se não estiver. OBS: S
 
 ``` onStationary() ```
 
-Esconde o ActionSheet.
+Adiciona um *listener* para região fixa. Sempre que o device entrar em "modo fixo", seu callback de sucesso vai ser executado com o parametro de localização contendo o "radius" da região. OBS: Somente iOS e WP
 
 ``` isLocationEnabled() ```
 
