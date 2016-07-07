@@ -63,11 +63,11 @@ Métodos estáticos
 
 ``` configure() ```
 
-Configure the plugin. Success callback will be called with one argument - Location object, which tries to mimic w3c Coordinates interface. See http://dev.w3.org/geo/api/spec-source.html#coordinates_interface Callback to be executed every time a geolocation is recorded in the background.
+Configura o plugin. O callback de sucesso vai ser chamado com um argumento - Objeto de localização, que tenta imitar a interface de coordenadas do w3c. Veja mais em [http://dev.w3.org/geo/api/spec-source.html#coordinates_interface](http://dev.w3.org/geo/api/spec-source.html#coordinates_interface) Callback executado toda vez que a geolocalização é salva em segundo plano.
 
-Fail callback to be executed every time a geolocation error occurs.
+Callback de falha a ser executado toda vez que ocorrer um erro na geolocalização.
 
-Options a json object of type Config
+Options é um objeto json do tipo Config.
 
 ``` start() ```
 
