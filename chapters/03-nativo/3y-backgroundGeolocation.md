@@ -61,29 +61,68 @@ BackgroundGeolocation.stop();
 Métodos estáticos
 -----------------
 
-``` show(Options) ```
+``` configure() ```
 
-Mostra o ActionSheet. As opções do ActionSheet é um objeto com as seguintes propriedades.
+Configure the plugin. Success callback will be called with one argument - Location object, which tries to mimic w3c Coordinates interface. See http://dev.w3.org/geo/api/spec-source.html#coordinates_interface Callback to be executed every time a geolocation is recorded in the background.
 
-| Opção                         | Tipo      | Descrição                                    |
-|-------------------------------|-----------|----------------------------------------------|
-| title                         |`string`   | O título para o actionsheet                  |
-| buttonLabels                  |`string[]` | Labels para os botões. Usa o índice 'x'      |
-| androidTheme                  |`number`   | Tema para ser usado no Android               |
-| androidEnableCancelButton     |`boolean`  | Habilita o botão de cancelar no Android      |
-| winphoneEnableCancelButton    |`boolean`  | Habilita o botão de cancelar no Windows Phone|
-| addCancelButtonWithLabel      |`string`   | Adiciona um botão de cancelar com texto      |
-| addDestructiveButtonWithLabel |`string`   | Adiciona um botão destrutivo com texto       |
-| position                      |`number[]` | No iPad, define a posição X,Y				   |
+Fail callback to be executed every time a geolocation error occurs.
 
-| Parametro                     | Tipo         | Detalhes                                     |
-|-------------------------------|--------------|----------------------------------------------|
-| Options                       |```options``` | Veja tabela acima                  		  |
+Options a json object of type Config
 
-*Retorna:* ```Promise``` 
+``` start() ```
 
-Retorna uma Promise que retorna o indíce do botão pressionado (o índice começa em 1, então 1, 2, 3, etc.).
+LIGA o sistema de geolocalização em segundo plano. O usuario vai ser rastreado sempre que ele suspender a aplicação.
 
-``` hide() ```
+``` stop() ```
+
+DESLIGA o sistema de geolocalização em segundo plano.
+
+``` finish() ```
+
+Informa o plugin nativo de que você terminou e a tarefa em background pode ser concluída. OBS: Somente iOS e WP.
+
+``` changePace() ```
+
+Força o plugin a entrar no modo "em movimento" ou "fixo". OBS: Somente iOS e WP.
+
+``` setConfig() ```
+
+Define as configurações.
+
+``` getStationaryLocation() ```
+
+Retorna a stationaryLocation se disponivel. retorna null se não estiver. OBS: Somente iOS e WP.
+
+``` onStationary() ```
 
 Esconde o ActionSheet.
+
+``` isLocationEnabled() ```
+
+Verifica se a localização está habilitada no dispositivo.
+
+Returns: Promise<number> Retorna uma promise com um argumento do tipo int com valores 0, 1 (true). OBS: Somente ANDROID.
+
+``` showLocationSettings() ```
+
+Esconde o ActionSheet.
+
+``` watchLocationMode() ```
+
+Esconde o ActionSheet.
+
+``` stopWatchingLocationMode() ```
+
+Esconde o ActionSheet.
+
+``` getLocations() ```
+
+Esconde o ActionSheet.
+
+``` deleteLocation() ```
+
+Esconde o ActionSheet.
+
+``` deleteAllLocations() ```
+
+Deleta todas as localizações salvas. OBS: Somente ANDROID
