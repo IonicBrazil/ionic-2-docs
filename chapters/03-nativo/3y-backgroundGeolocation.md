@@ -109,7 +109,7 @@ Mostra as configurações de localização do dispositivo.
 
 ``` watchLocationMode() ```
 
-Esconde o ActionSheet.
+Metodo pode ser usado para detectar mudanças do usuário nas configurações do serviço de localização. Se o usuário habilitar ou desabilitar os serviços de localização o callback de sucesso será executado. Em caso de erro (SettingNotFoundException) o callback de falha será executado. OBS: Somente ANDROID.
 
 ``` stopWatchingLocationMode() ```
 
