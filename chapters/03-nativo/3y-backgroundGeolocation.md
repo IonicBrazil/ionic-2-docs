@@ -50,7 +50,7 @@ platform.ready().then(() => {
             console.log('BackgroundGeolocation error');
         });
 
-    // LIGA o sistema de geolocalização em segundo plano. O usuario vai ser rastreado sempre que ele suspender a aplicação.
+    // LIGA o sistema de geolocalização em segundo plano. O usuário vai ser rastreado sempre que ele suspender a aplicação.
     BackgroundGeolocation.start();
 }
 
@@ -79,7 +79,7 @@ DESLIGA o sistema de geolocalização em segundo plano.
 
 ``` finish() ```
 
-Informa o plugin nativo de que você terminou e a tarefa em background pode ser concluída. OBS: Somente iOS e WP.
+Informa o plugin nativo de que você terminou e a tarefa em segundo plano(background) pode ser concluída. OBS: Somente iOS e WP.
 
 ``` changePace() ```
 
@@ -117,7 +117,7 @@ Para de olhar para mudanças nos modos de localização. OBS: Somente ANDROID.
 
 ``` getLocations() ```
 
-Esconde o ActionSheet.
+Metodo vai retornar todas as localizações salvas. As localizações são salvas quando: - config.stopOnTerminate é falso e a atividade principal foi morta pelo sistema ou - option.debug é verdadeiro. OBS: Somente ANDROID
 
 ``` deleteLocation() ```
 
