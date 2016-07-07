@@ -28,7 +28,7 @@ import {BackgroundGeolocation} from 'ionic-native';
 // Quando o dispositivo estiver pronto :
 platform.ready().then(() => {
 
-    // BackgroundGeolocation é altamente configuravel. Veja as opcões espceificas de configuração da plataforma
+    // BackgroundGeolocation é altamente configurável. Veja as opcões específicas de configuração da plataforma
     let config = {
             desiredAccuracy: 10,
             stationaryRadius: 20,
@@ -42,19 +42,19 @@ platform.ready().then(() => {
             console.log('[js] BackgroundGeolocation callback:  ' + location.latitude + ',' + location.longitude);
 
             // IMPORTANTE:  Você precisa executar o metodo "finish" aqui para informar o plugin nativo de que você terminou
-            // e a tarefa em background pode ser concluída  You must do this regardless if your HTTP request is successful or not.
-            // IF YOU DON'T, ios will CRASH YOUR APP for spending too much time in the background.
-            BackgroundGeolocation.finish(); // FOR IOS ONLY
+            // e a tarefa em background pode ser concluída. Você precisa fazer isso independentemente do sucesso da sua requisição HTTP.
+            // SE VOCÊ NÃO FIZER, ios vai FINALIZAR SUA APLICAÇÃO(CRASH) por ficar muito tempo em segundo plano. 
+            BackgroundGeolocation.finish(); // SOMENTE IOS
         })
        .catch((error) => {
             console.log('BackgroundGeolocation error');
         });
 
-    // Turn ON the background-geolocation system.  The user will be tracked whenever they suspend the app.
+    // LIGA o sistema de geolocalização em segundo plano. O usuario vai ser rastreado sempre que ele suspender a aplicação.
     BackgroundGeolocation.start();
 }
 
-// If you wish to turn OFF background-tracking, call the #stop method.
+// Se você quiser DESLIGAR o sistema de localização em segundo plano, chame o metodo "stop".
 BackgroundGeolocation.stop();
 ```
 
