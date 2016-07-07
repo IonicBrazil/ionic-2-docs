@@ -105,7 +105,7 @@ Returns: Promise<number> Retorna uma promise com um argumento do tipo int com va
 
 ``` showLocationSettings() ```
 
-Esconde o ActionSheet.
+Mostra as configurações de localização do dispositivo.
 
 ``` watchLocationMode() ```
 
@@ -113,7 +113,7 @@ Esconde o ActionSheet.
 
 ``` stopWatchingLocationMode() ```
 
-Esconde o ActionSheet.
+Para de olhar para mudanças nos modos de localização. OBS: Somente ANDROID.
 
 ``` getLocations() ```
 
@@ -121,7 +121,7 @@ Esconde o ActionSheet.
 
 ``` deleteLocation() ```
 
-Esconde o ActionSheet.
+Deleta a localização salva passando o locationId. OBS: Somente ANDROID
 
 ``` deleteAllLocations() ```
 
