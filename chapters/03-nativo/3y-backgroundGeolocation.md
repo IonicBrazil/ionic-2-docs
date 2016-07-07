@@ -34,16 +34,16 @@ platform.ready().then(() => {
             stationaryRadius: 20,
             distanceFilter: 30,
             debug: true, //  habilite para ouvir sons referentes ao ciclo de vida do background-geolocation.
-            stopOnTerminate: false, // habilite para limpar as configurações de localizaçao em segundo plano quando o app for fechado.
+            stopOnTerminate: false, // habilite para limpar as configurações de localização em segundo plano quando o app for fechado.
     };
 
     BackgroundGeolocation.configure(config)
        .then((location) => {
             console.log('[js] BackgroundGeolocation callback:  ' + location.latitude + ',' + location.longitude);
 
-            // IMPORTANTE:  Você precisa executar o metodo "finish" aqui para informar o plugin nativo de que você terminou
+            // IMPORTANTE:  Você precisa executar o método "finish" aqui para informar o plugin nativo de que você terminou
             // e a tarefa em background pode ser concluída. Você precisa fazer isso independentemente do sucesso da sua requisição HTTP.
-            // SE VOCÊ NÃO FIZER, ios vai FINALIZAR SUA APLICAÇÃO(CRASH) por ficar muito tempo em segundo plano. 
+            // SE VOCÊ NÃO FIZER, iOS vai FINALIZAR SUA APLICAÇÃO(CRASH) por ficar muito tempo em segundo plano. 
             BackgroundGeolocation.finish(); // SOMENTE IOS
         })
        .catch((error) => {
@@ -54,7 +54,7 @@ platform.ready().then(() => {
     BackgroundGeolocation.start();
 }
 
-// Se você quiser DESLIGAR o sistema de localização em segundo plano, chame o metodo "stop".
+// Se você quiser DESLIGAR o sistema de localização em segundo plano, chame o método "stop".
 BackgroundGeolocation.stop();
 ```
 
@@ -71,7 +71,7 @@ Options é um objeto json do tipo Config.
 
 ``` start() ```
 
-LIGA o sistema de geolocalização em segundo plano. O usuario vai ser rastreado sempre que ele suspender a aplicação.
+LIGA o sistema de geolocalização em segundo plano. O usuário vai ser rastreado sempre que ele suspender a aplicação.
 
 ``` stop() ```
 
@@ -95,7 +95,7 @@ Retorna a stationaryLocation se disponivel. retorna null se não estiver. OBS: S
 
 ``` onStationary() ```
 
-Adiciona um *listener* para região fixa. Sempre que o device entrar em "modo fixo", seu callback de sucesso vai ser executado com o parametro de localização contendo o "radius" da região. OBS: Somente iOS e WP
+Adiciona um *listener* para região fixa. Sempre que o device entrar em "modo fixo", seu callback de sucesso vai ser executado com o parâmetro de localização contendo o "radius" da região. OBS: Somente iOS e WP
 
 ``` isLocationEnabled() ```
 
@@ -109,7 +109,7 @@ Mostra as configurações de localização do dispositivo.
 
 ``` watchLocationMode() ```
 
-Metodo pode ser usado para detectar mudanças do usuário nas configurações do serviço de localização. Se o usuário habilitar ou desabilitar os serviços de localização o callback de sucesso será executado. Em caso de erro (SettingNotFoundException) o callback de falha será executado. OBS: Somente ANDROID.
+Método pode ser usado para detectar mudanças do usuário nas configurações do serviço de localização. Se o usuário habilitar ou desabilitar os serviços de localização o callback de sucesso será executado. Em caso de erro (SettingNotFoundException) o callback de falha será executado. OBS: Somente ANDROID.
 
 ``` stopWatchingLocationMode() ```
 
@@ -117,7 +117,7 @@ Para de olhar para mudanças nos modos de localização. OBS: Somente ANDROID.
 
 ``` getLocations() ```
 
-Metodo vai retornar todas as localizações salvas. As localizações são salvas quando: - config.stopOnTerminate é falso e a atividade principal foi morta pelo sistema ou - option.debug é verdadeiro. OBS: Somente ANDROID
+Método vai retornar todas as localizações salvas. As localizações são salvas quando: - config.stopOnTerminate é falso e a atividade principal foi morta pelo sistema ou - option.debug é verdadeiro. OBS: Somente ANDROID
 
 ``` deleteLocation() ```
 
