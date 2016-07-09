@@ -59,7 +59,7 @@
 3.19 DeviceMotion  
 3.20 DeviceOrientation  
 3.21 Dialogs  
-3.22 [Email Composer](chapters/03-nativo/03-email-composer)  
+3.22 [Email Composer](chapters/03-nativo/03-email-composer.md)  
 3.23 Facebook  
 3.24 File  
 3.25 Flashlight  
