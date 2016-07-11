@@ -1,8 +1,8 @@
-ActionSheet
+DeviceAccounts
 ===========
 
 ```
-$ cordova plugin add cordova-plugin-actionsheet
+$ ionic plugin add https://github.com/loicknuchel/cordova-device-accounts.git
 ```
 
 Repositório: [https://github.com/EddyVerbruggen/cordova-plugin-actionsheet](https://github.com/EddyVerbruggen/cordova-plugin-actionsheet)
