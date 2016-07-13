@@ -79,7 +79,8 @@
 3.38 StatusBar  
 3.39 Toast  
 3.40 TouchID  
-3.41 Vibration
+3.41 Vibration   
+3.42 [DeviceAccounts](chapters/03-nativo/3l-deviceAccounts.md)  
 
 ####4. Temas  
 4.1 [Introdução](chapters/04-temas/4a-intro.md)  
