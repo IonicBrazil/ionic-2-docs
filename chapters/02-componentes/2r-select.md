@@ -19,6 +19,7 @@ O ion-select é um component similar ao elemento <select> do HTML, porém, o com
   </ion-item>
 </ion-list>
 ```
+
 É possível criar múltiplas seleções com <ion-select> apenas adicionando multiple="true" ao elemento.
 
 ``` ts
