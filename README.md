@@ -17,7 +17,7 @@
 2.1 [Overview](chapters/02-componentes/2a-overview.md)   
 2.2 [Action Sheets](chapters/02-componentes/2b-action-sheets.md)  
 2.3 [Alerts](chapters/02-componentes/2c-alertas.md)  
-2.4 Badges  
+2.4 [Badges](chapters/02-componentes/2d-badges.md)  
 2.5 Buttons  
 2.6 Cards  
 2.7 Checkbox  
