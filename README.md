@@ -31,7 +31,7 @@
 2.15 Radio  
 2.16 Searchbar  
 2.17 [Segment](chapters/02-componentes/2q-segmentos.md)  
-2.18 Select  
+2.18 [Select](chapters/02-componentes/2r-select.md)  
 2.19 Slides  
 2.20 Tabs  
 2.21 Toggle  
