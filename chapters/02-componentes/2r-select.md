@@ -2,7 +2,7 @@
 
 ## Utilização básica:
 
-O ion-select é um component similar ao elemento <select> do HTML, porém, o componente select do Ionic faz ficar mais fácil para os usuários procurarem e selecionar a opção ou opções desejadas. Quando os usuários apertam o componente select, um diálogo que vai aparecer com todas as opções largas, isso faz com que o select fique fácil para os usuários.
+O ion-select é um component similar ao elemento ```<select>``` do HTML, porém, o componente select do Ionic faz ficar mais fácil para os usuários procurarem e selecionar a opção ou opções desejadas. Quando os usuários apertam o componente select, um diálogo que vai aparecer com todas as opções largas, isso faz com que o select fique fácil para os usuários.
 
 ``` ts
 <ion-list>
@@ -20,7 +20,7 @@ O ion-select é um component similar ao elemento <select> do HTML, porém, o com
 </ion-list>
 ```
 
-É possível criar múltiplas seleções com <ion-select> apenas adicionando multiple="true" ao elemento.
+É possível criar múltiplas seleções com ```<ion-select>``` apenas adicionando multiple="true" ao elemento.
 
 ``` ts
 <ion-list>
