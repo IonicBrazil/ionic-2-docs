@@ -23,21 +23,35 @@
 3.22 > File  
 3.23 > Flashlight  
 3.24 > [Geolocation](3w-geolocation.md)   
-3.25 > Globalization  
+3.25 > Globalization
+3.26 > Google Analytics
 3.27 > [Google Maps](3za-googleMaps.md)   
-3.26 > Hotspot  
-3.27 > ImagePicker  
-3.28 > InAppBrowser  
-3.29 > Keyboard  
-3.30 > LaunchNavigator  
-3.31 > LocalNotifications  
-3.32 > Network  
-3.33 > [Push](3v-push.md)  
-3.34 > SMS  
-3.35 > SocialSharing  
-3.36 > SpinnerDialog  
-3.37 > SplashScreen  
-3.38 > StatusBar  
-3.39 > Toast  
-3.40 > TouchID  
-3.41 > Vibration
+3.28 > Google Plus
+3.29 > Hotspot
+3.30 > Httpd
+3.31 > IBeacon
+3.32 > ImagePicker  
+3.33 > InAppBrowser
+3.34 > Ionic Deeplinks
+3.35 > Keyboard  
+3.36 > Launch Navigator  
+3.37 > Local Notifications  
+3.38 > MediaError
+3.39 > MediaPlugin
+3.40 > Network  
+3.41 > OneSignal
+3.42 > Printer
+3.43 > [Push](3v-push.md)  
+3.44 > SafariViewController
+3.45 > Screenshot
+3.46 > SMS  
+3.47 > Social Sharing  
+3.48 > Spinner Dialog  
+3.49 > SplashScreen  
+3.50 > SQLite
+3.51 > StatusBar  
+3.52 > Toast  
+3.53 > TouchID  
+3.54 > Transfer
+3.55 > Vibration
+3.56 > WebIntent
