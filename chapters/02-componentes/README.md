@@ -19,5 +19,5 @@
 2.18 > Select  
 2.19 > Slides  
 2.20 > Tabs  
-2.21 > Toggle  
-2.22 > Toolbar 
+2.21 > [Toggle](2u-toggle.md) 
+2.22 > Toolbar
