@@ -1,4 +1,4 @@
-# Hotspot
+# Wifi e Pontos de acesso
 
 ```shell
 $ ionic plugin add cordova-plugin-hotspot
