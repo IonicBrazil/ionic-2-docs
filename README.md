@@ -26,7 +26,7 @@
 2.13 Modals  
 2.14 Navigation  
 2.15 Radio  
-2.16 Searchbar  
+2.16 [Searchbar](chapters/02-componentes/2q-searchbar.md)  
 2.17 Segment  
 2.18 Select  
 2.19 Slides  
