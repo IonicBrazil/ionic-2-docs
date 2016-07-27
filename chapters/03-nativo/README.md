@@ -23,15 +23,15 @@
 3.22 > File  
 3.23 > Flashlight  
 3.24 > [Geolocation](3w-geolocation.md)   
-3.25 > Globalization
-3.26 > Google Analytics
+3.25 > [Globalization](325-globalization.md)
+3.26 > [Google Analytics](326-analytics.md)
 3.27 > [Google Maps](3za-googleMaps.md)   
 3.28 > Google Plus
-3.29 > Hotspot
+3.29 > [Hotspot](329-hotspot.md)
 3.30 > Httpd
 3.31 > IBeacon
-3.32 > ImagePicker  
-3.33 > InAppBrowser
+3.32 > [ImagePicker](332-imagepicker.md)
+3.33 > [InAppBrowser](333-inappbrowser.md)
 3.34 > Ionic Deeplinks
 3.35 > Keyboard  
 3.36 > Launch Navigator  
