@@ -61,6 +61,5 @@ Verifica se notificações remotas (push) estão habilitadas. No iOS 8+, retorna
 
 ``` isRegisteredForRemoteNotifications() ```
 
-Indicates if the app is registered for remote (push) notifications on the device. On iOS 8+, returns true if the app is registered for remote notifications and received its device token, or false if registration has not occurred, has failed, or has been denied by the user. Note that user preferences for notifications in the Settings app will not affect this. On iOS <=7, returns true if app is registered for remote notifications AND alert style is not set to “None” (i.e. “Banners” or “Alerts”) - same as isRemoteNotificationsEnabled().
-
+Indica se a aplicação está registrada para receber notificações remotas (push) no dispotivo. No iOS 8+, retorna true se a aplicação está registrada para receber notificações remotas e recebeu o token do dispositivo, ou false se o registro não ocorreu, falhou ou foi negado pelo usuário. Nota: as preferencias do usuario para notificações nas Configurações não ira afetar esta operação. No iOS <=7, retorna true se a aplicação está registrada para receber notificações remotas E o estilo dos alertas está definido como "None" (i.e "Banners" ou "Alerts") - igual a isRemoteNotificationsEnabled().
 
