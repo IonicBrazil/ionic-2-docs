@@ -128,7 +128,7 @@
 8.6 [Instalação em OSX](chapters/08-recursos/08f-mac-setup.md)<br/>
 8.7 [Instalação em Windows](chapters/08-recursos/08g-windows-setup.md)
 
--- *linkar em cada capítulo o caminho correto para o arquivo.md*
+- *linkar em cada capítulo o caminho correto para o arquivo.md*
 -
 
 ## Contribuindo com a tradução  
