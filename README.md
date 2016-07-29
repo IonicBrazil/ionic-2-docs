@@ -130,6 +130,7 @@
 
 - *linkar em cada capítulo o caminho correto para o arquivo.md*
 
+
 ## Contribuindo com a tradução  
 
 [Aqui](https://github.com/IonicBrazil/ionic2-docs/blob/master/CONTRIBUTING.md) você pode visualizar o nosso guia de contribuição.  
