@@ -54,5 +54,4 @@
 3.53 > TouchID  
 3.54 > Transfer
 3.55 > Vibration
-3.56 > WebIntent   
-3.57 > [DeviceAccounts](chapters/03-nativo/3l-deviceAccounts.md)    
+3.56 > WebIntent
