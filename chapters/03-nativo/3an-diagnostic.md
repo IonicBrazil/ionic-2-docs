@@ -1,38 +1,12 @@
-ActionSheet
+Diagnostic
 ===========
 
 ```
-$ cordova plugin add cordova-plugin-actionsheet
+$ ionic plugin add cordova.plugins.diagnostic
 ```
 
-Repositório: [https://github.com/EddyVerbruggen/cordova-plugin-actionsheet](https://github.com/EddyVerbruggen/cordova-plugin-actionsheet)
+Repositório: [https://github.com/dpa99c/cordova-diagnostic-plugin](https://github.com/dpa99c/cordova-diagnostic-plugin)
 
-O plugin ActionSheet exibe uma lista de opções que o usuário pode escolher. 
-
-Esse plugin tem como dependência: ```cordova-plugin-actionsheet```. Para mais informações, por favor veja a [documentação do plugin ActionSheet](https://github.com/EddyVerbruggen/cordova-plugin-actionsheet).
-
-Platafomas suportadas
------
-- Android
-- iOS
-- Windows Phone 8
-
-Uso
----
-
-``` javascript
-import {ActionSheet} from 'ionic-native';
-
-let buttonLabels = ['Share via Facebook', 'Share via Twitter'];
-ActionSheet.show({
-  'title': 'What do you want with this image?',
-  'buttonLabels': buttonLabels,
-  'addCancelButtonWithLabel': 'Cancel',
-  'addDestructiveButtonWithLabel' : 'Delete'
-}).then(buttonIndex => {
-  console.log('Button pressed: ' + buttonLabels[buttonIndex - 1]);
-});
-```
 
 Métodos estáticos
 -----------------
