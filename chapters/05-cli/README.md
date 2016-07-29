@@ -5,7 +5,7 @@
 5.4 [`generate`](./5d-generate.md)   
 5.5 [`info`](./5e-info.md)  
 5.6 [`platform`](./5f-platform.md)  
-5.7 `run`  
-5.8 `serve`  
-5.9 `start`  
-5.10 `v2`  
+5.7 [`run`](./5g-run.md)
+5.8 [`serve`](./5h-serve.md)
+5.9 [`start`](./5i-start.md)  
+5.10 [`v2`](./5j-v2.md)  
