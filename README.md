@@ -93,8 +93,8 @@
 3.53 > TouchID  
 3.54 > Transfer   
 3.55 > Vibration    
-3.56 > WebIntent   
-3.57 > [DeviceAccounts](chapters/03-nativo/3l-deviceAccounts.md)    
+3.56 > WebIntent  
+
 
 ####4. Temas  
 4.1 [Introdução](chapters/04-temas/4a-intro.md)  
@@ -127,8 +127,6 @@
 8.5 [Usando NPM](chapters/08-recursos/08e-using-npm.md)  
 8.6 [Instalação em OSX](chapters/08-recursos/08f-mac-setup.md)<br/>
 8.7 [Instalação em Windows](chapters/08-recursos/08g-windows-setup.md)
-
-- *linkar em cada capítulo o caminho correto para o arquivo.md*
 
 
 ## Contribuindo com a tradução  
