@@ -129,7 +129,7 @@
 8.7 [Instalação em Windows](chapters/08-recursos/08g-windows-setup.md)
 
 - *linkar em cada capítulo o caminho correto para o arquivo.md*
--
+
 
 ## Contribuindo com a tradução  
 
