@@ -53,11 +53,11 @@ Verifica se a localização está no modo de alta precisão via GPS. Retorna tru
 
 ``` isNetworkLocationEnabled() ```
 
-Checks if location mode is set to return low-accuracy locations from network triangulation/WiFi access points. Returns true if Location mode is enabled and is set to either: - Battery saving = network triangulation and Wifi network IDs (low accuracy) - High accuracy = GPS hardware, network triangulation and Wifi network IDs (high and low accuracy)
+Verifica se o modo de localização está definido para retornar localizações com baixa precisão via triangulação de rede/pontos de acesso WiFi. Retorna true se o modo de localização estiver habilitado e definido como: - Economia de Bateria = triangulação de rede e rede WiFi IDs (baixa precisão) - Alta Precisão = GPS, triangulação de rede e rede WiFi IDs (alta ou baixa precisão).
 
 ``` isRemoteNotificationsEnabled() ```
 
-Checks if remote (push) notifications are enabled. On iOS 8+, returns true if app is registered for remote notifications AND “Allow Notifications” switch is ON AND alert style is not set to “None” (i.e. “Banners” or “Alerts”). On iOS <=7, returns true if app is registered for remote notifications AND alert style is not set to “None” (i.e. “Banners” or “Alerts”) - same as isRegisteredForRemoteNotifications().
+Verifica se notificações remotas (push) estão habilitadas. No iOS 8+, retorna true se a aplicação está registrada para notificações remotas E "Allow Notifications" está ligado E o estilo dos alertas está definido como "None" (i.e "Banners" ou "Alerts"). No iOS <=7, retorna true se a aplicação está registrada para notificações remotas E o estilo dos alertas está definido como "None" (i.e "Banners" ou "Alerts") - igual a isRegisteredForRemoteNotifications()
 
 ``` isRegisteredForRemoteNotifications() ```
 
