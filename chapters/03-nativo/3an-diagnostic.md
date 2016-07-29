@@ -11,28 +11,34 @@ Repositório: [https://github.com/dpa99c/cordova-diagnostic-plugin](https://gith
 Métodos estáticos
 -----------------
 
-``` show(Options) ```
+``` isLocationEnabled() ```
 
-Mostra o ActionSheet. As opções do ActionSheet é um objeto com as seguintes propriedades.
+Verifica se o app está apto a acessar a localização do dispositivo.
 
-| Opção                         | Tipo      | Descrição                                    |
-|-------------------------------|-----------|----------------------------------------------|
-| title                         |`string`   | O título para o actionsheet                  |
-| buttonLabels                  |`string[]` | Labels para os botões. Usa o índice 'x'      |
-| androidTheme                  |`number`   | Tema para ser usado no Android               |
-| androidEnableCancelButton     |`boolean`  | Habilita o botão de cancelar no Android      |
-| winphoneEnableCancelButton    |`boolean`  | Habilita o botão de cancelar no Windows Phone|
-| addCancelButtonWithLabel      |`string`   | Adiciona um botão de cancelar com texto      |
-| addDestructiveButtonWithLabel |`string`   | Adiciona um botão destrutivo com texto       |
-| position                      |`number[]` | No iPad, define a posição X,Y				   |
+``` isWifiEnabled() ```
 
-| Parametro                     | Tipo         | Detalhes                                     |
-|-------------------------------|--------------|----------------------------------------------|
-| Options                       |```options``` | Veja tabela acima                  		  |
+Verifica se o Wifi está conectado/habilitado. No iOS retorna true se o dispositivo está conectado a uma rede via WiFi. No Android e no Windows 10 Mobile retorna true se o WiFi estiver habilitado nas configurações. No Android é necessário permissão.
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
-*Retorna:* ```Promise``` 
+``` isCameraEnabled() ```
 
-Retorna uma Promise que retorna o indíce do botão pressionado (o índice começa em 1, então 1, 2, 3, etc.).
+Verifica se o dispositivo tem uma câmera. No Android retorna true se o dispositivo tem uma câmera. No iOS retorna true se o dispositivo tem uma câmera e se a aplicação pode acessa-la. No Windows 10 Mobile returna true se o dispositivo tem uma câmera e a aplicação tem autorização para acessa-la.
+
+``` hide() ```
+
+Esconde o ActionSheet.
+
+``` hide() ```
+
+Esconde o ActionSheet.
+
+``` hide() ```
+
+Esconde o ActionSheet.
+
+``` hide() ```
+
+Esconde o ActionSheet.
 
 ``` hide() ```
 
