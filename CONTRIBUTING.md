@@ -32,7 +32,7 @@ Ao criar um novo PR, seguir os padrões abaixo:
 **2. Conversation:** Mencionar o @juarezpaf no PR  
 **2.1 Conversation:** Caso você tenha encontrado alguma dificuldade em algum termo, citá-lo. Exemplo: *o termo build não me senti totalmente à vontade em traduzir para compilar. O que vocês acham, mantenho como build em inglês ou deixo compilar?*  
 
-Não esqueçam de linkar no [README](https://github.com/IonicBrazil/ionic2-docs/blob/master/README.md) principal e também no README de cada capítulo, os arquivos dos tópicos que você enviar.  
+**Não é necessário** linkar no [README](https://github.com/IonicBrazil/ionic2-docs/blob/master/README.md) principal e também no README de cada capítulo. Como a documentação oficial ainda vem sofrendo mudanças, nós, da *staff* iremos atualizar os capítulos posteriormente. Apenas enviem em seu PR o capítulo traduzido, conforme mencionado anteriormente.  
 
 Lembrando, não creim PR que possuam conflitos. Caso, ao criar seu PR seja encontrado algum conflito, por favor, resolvam os conflitos primeiramente antes de criar o PR. Só serão aceitos PR para revisão hábeis para merge, com confitos serão fechados imediatamente.  
 
